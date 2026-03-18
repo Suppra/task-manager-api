@@ -1,0 +1,24 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "API REST de gestión de tareas con autenticación JWT usando Node.js, Express y MySQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Christian Javier Cañate Yepes",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
